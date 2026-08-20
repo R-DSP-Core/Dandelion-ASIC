@@ -1,1 +1,33 @@
 /build/
+/build-*/
+/cmake-build-*/
+
+# Chisel/SBT workspace products. Keep RTL/project/build.properties tracked.
+/RTL/target/
+/RTL/project/target/
+/RTL/.bloop/
+/RTL/.bsp/
+/RTL/.metals/
+/RTL/.idea/
+/RTL/generated/
+/RTL/out/
+
+# Editor, OS, and in-tree native build products.
+.DS_Store
+.idea/
+.vscode/
+*.class
+*.log
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+*.o
+*.obj
+*.a
+*.dylib
+*.so
+*.dSYM/
+obj_dir/
